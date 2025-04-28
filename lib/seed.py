@@ -10,7 +10,7 @@ def seed_database():
     Department.create_table()
     Employee.create_table()
 
-    # Create seed data
+    #Create seed data
     payroll = Department.create("Payroll", "Building A, 5th Floor")
     human_resources = Department.create(
         "Human Resources", "Building C, East Wing")
